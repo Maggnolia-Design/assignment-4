@@ -59,13 +59,15 @@ footer {
 /* ABOUT ME PAGE */
 
 main.about {
+   width: 64%;
+   padding-left: 10vw;
    >h2 {
       font-size:22px;
-      padding-top: 25vh;
+      padding-top: 18vh;
    }
    >h1 {
-      font-size:28px;
-      padding-top: 50px;
+      font-size:26px;
+      padding-top: 35px;
    }
    >p {
       font: 16px/30px "Avenir" black;
