@@ -52,12 +52,11 @@ table {
   border-spacing: 0;
 }
 
-/* BODY */
 body {
   margin: 0 auto;
   width: 88%;
   overflow: auto;
-  background-color: yellow;
+  background-color: grey;
 }
 
 main {
@@ -68,13 +67,16 @@ main {
   border: 5px solid red;
 }
 main > h1 {
-  font: bold 55px "Arvo" serif;
+  font: bold 22px "Josefin Sans" serif;
   padding-top: 25vh;
 }
 main > h2 {
-  font: bold 35px "Josefin Sans" sans-serif;
+  font: bold 35px "Arvo" serif;
   color: #444;
   padding-top: 16px;
+}
+main > p {
+  font: 16px/35px "Avenir" sans-serif;
 }
 
 nav {
@@ -90,26 +92,4 @@ nav > ul > li > a {
   font: 16px/35px "Avenir" sans-serif;
   color: black;
   text-decoration: none;
-}
-
-footer {
-  clear: both;
-  padding: 5vw;
-  border: 5px solid red;
-  font: 16px/30px "Avenir" black;
-}
-
-/* BREAK POINTS */
-/* ABOUT ME PAGE */
-main.about > h2 {
-  font-size: 22px;
-  padding-top: 25vh;
-}
-main.about > h1 {
-  font-size: 28px;
-  padding-top: 50px;
-}
-main.about > p {
-  font: 16px/30px "Avenir" black;
-  padding-top: 25px;
 }

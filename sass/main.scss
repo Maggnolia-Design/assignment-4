@@ -32,9 +32,13 @@ nav {
    height: 400px;
    float: right;
    border: 5px solid red;
-   ul {
-      font: 16px/35px "Avenir" black;
-      padding-top: 14vh
+   > ul {
+      padding-top: 14vh;
+      > li >a {
+         font: 16px/35px "Avenir" sans-serif;
+         color: black;
+         text-decoration: none;
+      }
    }
 }
 
@@ -50,4 +54,21 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+}
+
+/* ABOUT ME PAGE */
+
+main.about {
+   >h2 {
+      font-size:22px;
+      padding-top: 25vh;
+   }
+   >h1 {
+      font-size:28px;
+      padding-top: 50px;
+   }
+   >p {
+      font: 16px/30px "Avenir" black;
+      padding-top: 25px;
+   }
 }
