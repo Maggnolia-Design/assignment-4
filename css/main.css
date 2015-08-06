@@ -78,7 +78,6 @@ main > h2 {
 
 nav {
   width: 150px;
-  height: 400px;
   float: right;
   border: 5px solid red;
 }
@@ -105,7 +104,6 @@ body.about, .print {
 }
 body.about > main, .print > main {
   width: 64%;
-  padding-left: 10vw;
 }
 body.about > main > h2, .print > main > h2 {
   font-size: 22px;
@@ -121,20 +119,16 @@ body.about > main > p, .print > main > p {
   padding-bottom: 25px;
 }
 
-#container {
-  width: 300px;
-  height: 300px;
-  display: table;
-  padding: 30px;
-  clear: both;
-}
-#container .thumbnail {
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell;
+.thumbnail {
+  width: 275px;
+  height: 275px;
   background-color: #ccc;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  border: 1px solid red;
+  float: left;
 }
-#container .thumbnail img {
-  max-width: 300px;
-  max-height: 300px;
+.thumbnail img {
+  height: inherit;
 }
