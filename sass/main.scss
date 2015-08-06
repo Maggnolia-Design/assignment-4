@@ -27,6 +27,7 @@ main {
    }
 }
 
+/* NAV BAR */
 nav {
    position: fixed;
    left: 82vw;
@@ -127,6 +128,7 @@ body.about {
 
 section {
    float:left;
+   width: 100%;
    border-top: 4px solid black;
    padding-top: 40px;
    padding-bottom: 40px
@@ -141,10 +143,18 @@ section {
    margin-bottom: 40px;
    border: 1px solid red;
    display: inline-block;
+   display: block;
+   position: relative;
+   float: left;
    > img {
-      display: block;
       height: inherit;
-      margin: 0 auto;
+   }
+   &:hover {
+      z-index: 10;
+   }
+   &:hover img{
+      height: 550px;
+      transition: 1s;
    }
 }
 
@@ -157,17 +167,25 @@ section {
    margin-bottom: 40px;
    border: 1px solid red;
    display: inline-block;
+   display: block;
+   position: relative;
+   float: left;
    > img {
       width: inherit;
-      margin-top: 38px;
+   }
+   &:hover {
+      z-index: 10;
+   }
+
+   &:hover img {
+      width: 550px;
+      transition: 1s;
    }
 }
-
 
 body.artwork {
    background-color: #e5e3dc
 }
-
 
 /* CONTACT PAGE */
 
