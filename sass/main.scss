@@ -1,6 +1,6 @@
 @import '_base.scss';
 @import '_mixins.scss';
-/* BODY */
+/* HOME */
 
 body {
    margin: 0 auto;
@@ -42,9 +42,24 @@ nav {
 
 footer {
    clear: both;
+   position: fixed;
+   left: 0;
+   bottom: 0;
    padding: 5vw;
    border: 5px solid red;
-   font: 16px/30px "Avenir" black
+   font: 16px/30px "Avenir";
+   color: white;
+}
+
+div.waves {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100vw;
+   z-index: -1;
+   >img {
+      width: 100%;
+   }
 }
 
 /* BREAK POINTS */
