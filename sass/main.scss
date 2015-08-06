@@ -58,19 +58,24 @@ footer {
 
 /* ABOUT ME PAGE */
 
-main.about {
+body.about {
+   background-image: url ('../img/about_me.png');
+
+   >main{
    width: 64%;
    padding-left: 10vw;
-   >h2 {
-      font-size:22px;
-      padding-top: 18vh;
-   }
-   >h1 {
-      font-size:26px;
-      padding-top: 35px;
-   }
-   >p {
-      font: 16px/30px "Avenir" black;
-      padding-top: 25px;
+      >h2 {
+         font-size:22px;
+         padding-top: 18vh;
+      }
+      >h1 {
+         font-size:26px;
+         padding-top: 35px;
+      }
+      >p {
+         font: 16px/30px "Avenir" black;
+         padding-top: 25px;
+      }
    }
 }
+

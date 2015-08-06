@@ -101,19 +101,22 @@ footer {
 
 /* BREAK POINTS */
 /* ABOUT ME PAGE */
-main.about {
+body.about {
+  background-image: url "../img/about_me.png";
+}
+body.about > main {
   width: 64%;
   padding-left: 10vw;
 }
-main.about > h2 {
+body.about > main > h2 {
   font-size: 22px;
   padding-top: 18vh;
 }
-main.about > h1 {
+body.about > main > h1 {
   font-size: 26px;
   padding-top: 35px;
 }
-main.about > p {
+body.about > main > p {
   font: 16px/30px "Avenir" black;
   padding-top: 25px;
 }
