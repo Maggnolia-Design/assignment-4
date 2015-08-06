@@ -116,7 +116,13 @@ body.about > main > h1, .print > main > h1 {
 body.about > main > p, .print > main > p {
   font: 16px/30px "Avenir" black;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
+}
+
+/* ARTWORK PAGE */
+section {
+  float: left;
+  border-top: 4px solid black;
 }
 
 .thumbnail {
