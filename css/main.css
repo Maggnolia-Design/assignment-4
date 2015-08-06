@@ -78,8 +78,9 @@ main > h2 {
 }
 
 nav {
+  position: fixed;
+  right: 5vw;
   width: 150px;
-  float: right;
   border: 5px solid red;
 }
 nav > ul {
@@ -170,8 +171,22 @@ section {
 .thumbnail > img {
   display: block;
   height: inherit;
-  width: auto;
   margin: 0 auto;
+}
+
+.thumb {
+  width: 275px;
+  height: 275px;
+  background-color: #ccc;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  border: 1px solid red;
+  display: inline-block;
+}
+.thumb > img {
+  width: inherit;
+  margin-top: 38px;
 }
 
 body.artwork {
