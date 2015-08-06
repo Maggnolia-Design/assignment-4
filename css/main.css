@@ -99,24 +99,25 @@ footer {
 
 /* BREAK POINTS */
 /* ABOUT ME PAGE */
-body.about, .print {
-  background-image: url "../img/about_me.png";
-}
-body.about > main, .print > main {
+body.about > main, .artwork > main {
   width: 64%;
 }
-body.about > main > h2, .print > main > h2 {
+body.about > main > h2, .artwork > main > h2 {
   font-size: 22px;
   padding-top: 18vh;
 }
-body.about > main > h1, .print > main > h1 {
+body.about > main > h1, .artwork > main > h1 {
   font-size: 26px;
   padding-top: 35px;
 }
-body.about > main > p, .print > main > p {
+body.about > main > p, .artwork > main > p {
   font: 16px/30px "Avenir" black;
   padding-top: 25px;
   padding-bottom: 50px;
+}
+
+body.about {
+  background-color: #d0e2ea;
 }
 
 /* ARTWORK PAGE */
@@ -139,4 +140,8 @@ section {
 }
 .thumbnail img {
   height: inherit;
+}
+
+body.artwork {
+  background-color: #e5e3dc;
 }

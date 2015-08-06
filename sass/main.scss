@@ -56,8 +56,7 @@ footer {
 
 /* ABOUT ME PAGE */
 
-body.about,.print{
-   background-image: url ('../img/about_me.png');
+body.about,.artwork{
    >main{
       width: 64%;
       >h2 {
@@ -74,6 +73,10 @@ body.about,.print{
          padding-bottom: 50px;
       }
    }
+}
+
+body.about {
+   background-color: #d0e2ea
 }
 
 /* ARTWORK PAGE */
@@ -97,6 +100,10 @@ section {
    img {
       height: inherit;
    }
+}
+
+body.artwork {
+   background-color: #e5e3dc
 }
 
 
