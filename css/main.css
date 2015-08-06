@@ -99,18 +99,18 @@ footer {
 
 /* BREAK POINTS */
 /* ABOUT ME PAGE */
-body.about > main, .artwork > main {
+body.about > main, .artwork > main, .contact > main {
   width: 64%;
 }
-body.about > main > h2, .artwork > main > h2 {
+body.about > main > h2, .artwork > main > h2, .contact > main > h2 {
   font-size: 22px;
   padding-top: 18vh;
 }
-body.about > main > h1, .artwork > main > h1 {
+body.about > main > h1, .artwork > main > h1, .contact > main > h1 {
   font-size: 26px;
   padding-top: 35px;
 }
-body.about > main > p, .artwork > main > p {
+body.about > main > p, .artwork > main > p, .contact > main > p {
   font: 16px/30px "Avenir" black;
   padding-top: 25px;
   padding-bottom: 50px;
