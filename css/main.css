@@ -61,7 +61,6 @@ body {
 }
 
 main {
-  height: 400px;
   width: 70%;
   float: left;
   padding-left: 5vw;
@@ -101,22 +100,41 @@ footer {
 
 /* BREAK POINTS */
 /* ABOUT ME PAGE */
-body.about {
+body.about, .print {
   background-image: url "../img/about_me.png";
 }
-body.about > main {
+body.about > main, .print > main {
   width: 64%;
   padding-left: 10vw;
 }
-body.about > main > h2 {
+body.about > main > h2, .print > main > h2 {
   font-size: 22px;
   padding-top: 18vh;
 }
-body.about > main > h1 {
+body.about > main > h1, .print > main > h1 {
   font-size: 26px;
   padding-top: 35px;
 }
-body.about > main > p {
+body.about > main > p, .print > main > p {
   font: 16px/30px "Avenir" black;
   padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#container {
+  width: 300px;
+  height: 300px;
+  display: table;
+  padding: 30px;
+  clear: both;
+}
+#container .thumbnail {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  background-color: #ccc;
+}
+#container .thumbnail img {
+  max-width: 300px;
+  max-height: 300px;
 }
