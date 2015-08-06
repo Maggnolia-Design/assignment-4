@@ -14,6 +14,7 @@ main {
    float: left;
    padding-left: 5vw;
    border: 5px solid red;
+   z-index: -1;
    > h1{
       font: bold 55px "Arvo" serif;
       padding-top: 25vh;
@@ -40,23 +41,27 @@ nav {
    }
 }
 
-footer {
+div.blurb>p{
    clear: both;
    position: fixed;
+   z-index: 1;
    left: 0;
    bottom: 0;
    padding: 5vw;
+   margin: 0 6vw 0 6vw;
    border: 5px solid red;
    font: 16px/30px "Avenir";
    color: white;
+   width: 60vw;
 }
 
-div.waves {
+.waves {
    position: fixed;
    left: 0;
    bottom: 0;
    width: 100vw;
-   z-index: -1;
+   padding: 0;
+   z-index: 0;
    >img {
       width: 100%;
    }
