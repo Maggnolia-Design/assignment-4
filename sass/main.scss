@@ -41,7 +41,7 @@ nav {
    }
 }
 
-div.blurb>p{
+.blurb>p{
    clear: both;
    position: fixed;
    z-index: 1;
@@ -55,10 +55,18 @@ div.blurb>p{
    width: 60vw;
 }
 
+.fish>img {
+   float: right;
+   border: 2px solid blue;
+   padding: 10px;
+   margin-right: 55px;
+   clear: both;
+}
+
 .waves {
    position: fixed;
    left: 0;
-   bottom: 0;
+   bottom: -100px;
    width: 100vw;
    padding: 0;
    z-index: 0;
