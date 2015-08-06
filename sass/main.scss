@@ -31,8 +31,10 @@ nav {
    position: fixed;
    left: 82vw;
    top: 8vh;
-   width: 48px;
-   border: 5px solid red;
+   width: 42px;
+   padding: 10px;
+   padding-left: 15px;
+   border: 2px solid red;
    height: 45px;
    transition: height 0.3s;
    overflow: hidden;
