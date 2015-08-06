@@ -29,11 +29,22 @@ main {
 
 nav {
    position: fixed;
-   right: 5vw;
-   width: 150px;
+   left: 82vw;
+   top: 8vh;
+   width: 48px;
    border: 5px solid red;
+   height: 45px;
+   transition: height 0.3s;
+   overflow: hidden;
+
+   &:hover{
+      height: 400px;
+      width: 140px;
+      background: rgba(250, 250, 250,.7);
+   }
+
    > ul {
-      padding-top: 14vh;
+      padding-top: 38px;
       > li >a {
          font: 18px/35px "Avenir" sans-serif;
          color: black;
@@ -41,6 +52,7 @@ nav {
       }
    }
 }
+
 
 /* HOME FOOTER */
 .blurb>p{
