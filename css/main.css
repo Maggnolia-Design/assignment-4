@@ -123,6 +123,8 @@ body.about > main > p, .print > main > p {
 section {
   float: left;
   border-top: 4px solid black;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .thumbnail {
@@ -131,9 +133,9 @@ section {
   background-color: #ccc;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 50px;
+  margin-bottom: 40px;
   border: 1px solid red;
-  float: left;
+  display: inline-block;
 }
 .thumbnail img {
   height: inherit;
