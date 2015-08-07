@@ -220,14 +220,14 @@ body.about > main > p, .artwork > main > p, .design > main > p, .misc > main > p
 
 .waves2 {
   position: fixed;
-  left: 0;
-  bottom: -170px;
+  left: 20px;
   width: 100vw;
   padding: 0;
   z-index: -1;
 }
 .waves2 > img {
   width: 100%;
+  opacity: .5;
 }
 
 body.about {

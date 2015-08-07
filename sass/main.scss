@@ -185,13 +185,13 @@ body.about,.artwork,.design,.misc,.contact{
 
 .waves2 {
    position: fixed;
-   left: 0;
-   bottom: -170px;
+   left: 20px;
    width: 100vw;
    padding: 0;
    z-index: -1;
    >img {
       width: 100%;
+      opacity: .5;
    }
 }
 
