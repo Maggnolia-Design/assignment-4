@@ -205,10 +205,12 @@ body.about > main, .artwork > main, .design > main, .misc > main, .contact > mai
 body.about > main > h2, .artwork > main > h2, .design > main > h2, .misc > main > h2, .contact > main > h2 {
   font-size: 22px;
   padding-top: 18vh;
+  padding-bottom: 35px;
 }
 body.about > main > h1, .artwork > main > h1, .design > main > h1, .misc > main > h1, .contact > main > h1 {
   font-size: 26px;
-  padding-top: 35px;
+  padding: 5px 10px 5px 10px;
+  background-color: yellow;
 }
 body.about > main > p, .artwork > main > p, .design > main > p, .misc > main > p, .contact > main > p {
   font: 17px/30px "PT Sans" black;
@@ -236,18 +238,18 @@ body.about {
 section {
   float: left;
   width: 100%;
-  border-top: 4px solid white;
+  border-top: 4px dotted black;
   padding: 40px 0 40px 26px;
 }
 
 .thumbnail {
   width: 275px;
   height: 275px;
-  background-color: #ccc;
+  background-color: #eee;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 40px;
-  border: 5px solid white;
+  border: 5px solid #eee;
   display: inline-block;
   display: block;
   position: relative;
@@ -267,11 +269,11 @@ section {
 .thumb {
   width: 275px;
   height: 275px;
-  background-color: #ccc;
+  background-color: #eee;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 40px;
-  border: 5px solid white;
+  border: 5px solid #eee;
   display: inline-block;
   display: block;
   position: relative;
@@ -302,12 +304,12 @@ section {
 }
 */
 body.artwork {
-  background-color: #FBEFF8;
+  background-color: #eacad7;
 }
 
 /* DESIGN+MISC PAGE */
 body.design {
-  background-color: #E0E0E0;
+  background-color: #e0e0e2;
 }
 
 body.misc {
