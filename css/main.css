@@ -82,7 +82,7 @@ main .fa-caret-right {
   float: left;
 }
 main > p {
-  font: 20px/30px "PT Sans" sans-serif;
+  font: 25px/30px "PT Sans" sans-serif;
   padding-top: 28px;
 }
 main > p em {
