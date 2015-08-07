@@ -6,6 +6,16 @@
       <title>Mista Fish | Home</title>
       <link rel="stylesheet" href="css/main.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <script>
+         function PlaySound(soundobj) {
+             var thissound=document.getElementById(soundobj);
+             thissound.play();
+         }
+         function StopSound(soundobj) {
+             var thissound=document.getElementById(soundobj);
+             var thissound=document.getElementById(soundobj);
+         }
+      </script>
    </head>
 
    <body>
@@ -35,6 +45,11 @@
             <img src = "img/waves.png" alt=""/>
          </div>
       </footer>
+
+         <p onmouseover="PlaySound('mySound')"
+             onmouseout="StopSound('mySound')">fish</p>
+         <audio id='mySound' src="audio/trololo.mp3"/>
+
    </body>
 
 </html>

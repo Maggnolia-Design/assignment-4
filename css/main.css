@@ -92,9 +92,9 @@ nav {
   z-index: 3;
 }
 nav:hover {
-  height: 400px;
+  height: 340px;
   width: 140px;
-  background: rgba(250, 250, 250, 0.7);
+  background: rgba(220, 220, 220, 0.7);
 }
 nav > ul {
   padding-top: 38px;
@@ -142,18 +142,18 @@ nav > ul > li > a {
 
 /* BREAK POINTS */
 /* ABOUT ME PAGE */
-body.about > main, .artwork > main, .contact > main {
+body.about > main, .artwork > main, .design > main, .misc > main, .contact > main {
   width: 64%;
 }
-body.about > main > h2, .artwork > main > h2, .contact > main > h2 {
+body.about > main > h2, .artwork > main > h2, .design > main > h2, .misc > main > h2, .contact > main > h2 {
   font-size: 22px;
   padding-top: 18vh;
 }
-body.about > main > h1, .artwork > main > h1, .contact > main > h1 {
+body.about > main > h1, .artwork > main > h1, .design > main > h1, .misc > main > h1, .contact > main > h1 {
   font-size: 26px;
   padding-top: 35px;
 }
-body.about > main > p, .artwork > main > p, .contact > main > p {
+body.about > main > p, .artwork > main > p, .design > main > p, .misc > main > p, .contact > main > p {
   font: 16px/30px "Avenir" black;
   padding-top: 25px;
   padding-bottom: 50px;
