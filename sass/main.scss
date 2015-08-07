@@ -15,7 +15,6 @@ main {
    width: 70%;
    float: left;
    padding-left: 5vw;
-   border: 5px solid red;
    z-index: -1;
    > h1{
       font: bold 55px "Arvo" serif;
@@ -31,11 +30,9 @@ main {
       padding-top: 28px;
       padding-right: 15px;
       float: left;
-      border: 2px solid purple;
    }
    >p{
       font: 20px/30px "PT Sans" sans-serif;
-      border: 2px solid purple;
       padding-top: 28px;
       em {
          font-style: italic;
@@ -62,16 +59,16 @@ nav {
    left: 82vw;
    top: 8vh;
    width: 42px;
-   padding: 10px;
+   padding: 20px;
    padding-left: 15px;
-   border: 2px solid red;
    height: 45px;
    transition: height 0.3s;
+   border-radius: 5px;
    overflow: hidden;
    z-index: 3;
 
    &:hover{
-      height: 340px;
+      height: 320px;
       width: 140px;
       background: rgba(220, 220, 220,.7);
    }
@@ -98,7 +95,6 @@ div.def {
    color: #bbb;
    font-family: "PT Sans" sans-serif;
    width: 430px;
-   border: 2px solid red;
    background-color: rgba(1,2,3,0.2);
    >p {
       font-size: 16px;
@@ -131,7 +127,6 @@ div.def {
 .fish{
    width: 18%;
    float: right;
-   border: 2px solid blue;
    padding: 10px;
    padding-top: 70px;
    margin-right: 55px;
@@ -207,7 +202,7 @@ body.about {
 section {
    float:left;
    width: 100%;
-   border-top: 4px solid black;
+   border-top: 4px solid white;
    padding: 40px 0 40px 26px
 }
 
@@ -218,7 +213,7 @@ section {
    margin-left: 10px;
    margin-right: 10px;
    margin-bottom: 40px;
-   border: 1px solid red;
+   border: 5px solid white;
    display: inline-block;
    display: block;
    position: relative;
@@ -242,7 +237,7 @@ section {
    margin-left: 10px;
    margin-right: 10px;
    margin-bottom: 40px;
-   border: 1px solid red;
+   border: 5px solid white;
    display: inline-block;
    display: block;
    position: relative;
