@@ -115,17 +115,25 @@ nav > ul > li > a {
   padding: 5vw;
   margin: 0 6vw 0 6vw;
   border: 5px solid red;
-  font: 16px/30px "Avenir";
+  font: 18px/35px "Avenir";
   color: white;
   width: 60vw;
 }
 
-.fish > img {
+.fish {
+  width: 20%;
   float: right;
   border: 2px solid blue;
   padding: 10px;
   margin-right: 55px;
   clear: both;
+}
+.fish > img {
+  width: 100%;
+}
+.fish > p {
+  position: relative;
+  font-size: 20px;
 }
 
 .waves {

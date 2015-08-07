@@ -36,19 +36,18 @@
       </nav>
       <footer>
          <div class=blurb>
-            <p>I am a Boston-based artists and interactive designer with a very random nickname.</p>
+            <p>I am a Boston-based artists and interactive designer with a very random online persona.</p>
          </div>
          <div class=fish>
-            <img src = "img/fish.png" width="20%" alt=""/>
+            <img src = "img/fish.png" alt=""/>
+            <p onmouseover="PlaySound('mySound')"
+             onmouseout="StopSound('mySound')">hear me sing!</p>
+            <audio id='mySound' src="audio/trololo.mp3"/>
          </div>
          <div class=waves>
             <img src = "img/waves.png" alt=""/>
          </div>
       </footer>
-
-         <p onmouseover="PlaySound('mySound')"
-             onmouseout="StopSound('mySound')">fish</p>
-         <audio id='mySound' src="audio/trololo.mp3"/>
 
    </body>
 
