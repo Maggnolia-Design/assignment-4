@@ -303,6 +303,7 @@ section {
    }
 }
 */
+/* BACKGROUND IMAGES*/
 body.artwork {
   background-color: #e2d9dc;
 }
@@ -314,6 +315,18 @@ body.design {
 
 body.misc {
   background-color: #ECE0F8;
+}
+
+.waves3 {
+  position: fixed;
+  left: -5px;
+  bottom: 0;
+  width: 100vw;
+  padding: 0;
+  z-index: -2;
+}
+.waves3 > img {
+  width: 100%;
 }
 
 /* CONTACT PAGE */
