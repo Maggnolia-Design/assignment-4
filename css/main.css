@@ -89,6 +89,7 @@ nav {
   height: 45px;
   transition: height 0.3s;
   overflow: hidden;
+  z-index: 3;
 }
 nav:hover {
   height: 400px;
@@ -225,7 +226,7 @@ body.artwork {
 
 /* CONTACT PAGE */
 .dark-matter {
-  clear: both;
+  clear: left;
   max-width: 500px;
   background: #555;
   padding: 20px 30px 20px 30px;
@@ -283,9 +284,12 @@ body.artwork {
   background-color: #EBEBEB;
 }
 
-.icons {
-  float: right;
+div.icons {
+  position: absolute;
+  bottom: 10vh;
+  right: 10vw;
+  padding-bottom: 30px;
 }
-.icons > i {
-  padding: 5px;
+div.icons .fa-facebook-official, div.icons .fa-camera-retro, div.icons .fa-pinterest-square {
+  padding-right: 15px;
 }
