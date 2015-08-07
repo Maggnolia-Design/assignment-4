@@ -220,8 +220,20 @@ body.about > main > p, .artwork > main > p, .design > main > p, .misc > main > p
   padding-bottom: 50px;
 }
 
+.waves2 {
+  position: fixed;
+  left: 0;
+  bottom: -170px;
+  width: 100vw;
+  padding: 0;
+  z-index: -1;
+}
+.waves2 > img {
+  width: 100%;
+}
+
 body.about {
-  background-color: #d0e2ea;
+  background-color: #DCF0F7;
 }
 
 /* ARTWORK PAGE */
@@ -229,8 +241,7 @@ section {
   float: left;
   width: 100%;
   border-top: 4px solid black;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0 40px 26px;
 }
 
 .thumbnail {
@@ -281,8 +292,21 @@ section {
   transition: 1s;
 }
 
+/*
+.waves2 {
+   position: fixed;
+   left: 0;
+   bottom: -170px;
+   width: 100vw;
+   padding: 0;
+   z-index: -1;
+   >img {
+      width: 100%;
+   }
+}
+*/
 body.artwork {
-  background-color: #e5e3dc;
+  background-color: #F8E5CB;
 }
 
 /* CONTACT PAGE */
